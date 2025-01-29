@@ -80,7 +80,7 @@ In case the application deals with a large amount of data, the application shoul
 10.0	
 Deployment Guide   (15.0)	Weight	Response
  Question 1.3.1 Merely following the instructions in the Deployment Guide, you are able to successfully deploy the application?
-Deployment Guide should use the markdown template located here: https://github.com/topcoderinc/topcoder-standards/blob/master/documentation-templates/README.md
+Deployment Guide should use the markdown template 
 Each section has its own purpose and if the application has multiple components, each section has been organized into sub sections to deal with each component.
 
 In case the Deployment Guide has not been followed, the provided instructions should contain at a minimum:
