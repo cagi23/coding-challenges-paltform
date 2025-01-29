@@ -1,10 +1,9 @@
 Basic Code Challenge with Unit Testing
-Expand All Collapse All
 The minimum passing score: 80.0
 
 Overall   (100.0)
 Challenge Specification Requirements   (40.0)	Weight	Response
-close Question 1.1.1 Have all major specification requirements been met?
+ Question 1.1.1 Have all major specification requirements been met?
 The challenge itself has a set of requirements that the submission should fulfill. During evaluation, the reviewer must verify that all requirements are met.
 This section deals with the major requirements - requirements, which when remain unfulfilled, contribute to the challenge's failure.
 
@@ -16,7 +15,7 @@ Grade using a continuous 0 thru 9 scale - range includes:
 6-8 - The implementation takes into consideration all requirements, but there are some areas where one or more requirements are not fully addressed and necessary features are missing.
 9 - The implementation fully addresses all requirements. All functionality can be used without any issues.
 80.0	
-close Question 1.1.2 Have all minor specification requirements been met?
+ Question 1.1.2 Have all minor specification requirements been met?
 Each challenge comes with its own set of minor requirements. When these requirements remain unfulfilled, the submission can still be used but cause minor inconveniences to the end user and affect the user experience
 
 Scale:
@@ -28,7 +27,7 @@ Scale:
 9 - The submission meets all minor requirements.
 20.0	
 Code Best Practices and Technical Requirements   (30.0)	Weight	Response
-close Question 1.2.1 Does the submission follow standard coding best practices?
+ Question 1.2.1 Does the submission follow standard coding best practices?
 Every project is expected to have a coding guideline adopted. Both code quality and code style are expected to be defined for a project. Else, the project follows Topcoder's own coding guideline.
 Additionally, every tech stack comes with its own set of universally accepted best practices, conventions and widely adopted practices, patterns or antipatterns.
 
@@ -37,7 +36,7 @@ Additionally, every tech stack comes with its own set of universally accepted be
 2 - Decent consideration to code guidelines followed.  Only very minor issues.
 3 - Strict adherence to code guidelines and best practices
 30.0	
-close Question 1.2.2 Does the submission include an appropriate amount of comments?
+ Question 1.2.2 Does the submission include an appropriate amount of comments?
 Code comments should be provided when the code cannot be easily understood.  Comments are not required extensively, only as needed. The developer should be capable of identifying code that may not seem obvious and thus needs to be explained using comments.
 
 Comments should describe why the following code has been written and not what the following code is doing, which, most of the time, can be understood by going through the code and thus, make the comment unnecessary
@@ -47,7 +46,7 @@ Comments should describe why the following code has been written and not what th
 2 - Code comments have been provided as needed. However, there appear to be comments for code that is quite obvious and thus are not needed.
 3 - Code comments provided are useful. They don't seem unnecessary and contribute to understanding the application better
 20.0	
-close Question 1.2.3 Has obsolete or unnecessary code been cleaned up?
+ Question 1.2.3 Has obsolete or unnecessary code been cleaned up?
 An application may no longer need a feature or an application feature may have become obsolete or outdated.  In such a scenario, the corresponding code needs to be removed (not commented, but removed altogether). 
 
 Note: This should only apply to sections of code impacted by this challenge.
@@ -55,7 +54,7 @@ Note: This should only apply to sections of code impacted by this challenge.
 No - Submission contains obsolete code that should've beeen cleaned up
 Yes - Submission does not contain obsolete code
 20.0	
-close Question 1.2.4 Has reasonable consideration been given to security?
+ Question 1.2.4 Has reasonable consideration been given to security?
 The code submitted does not have any loopholes from a security point of view. There are no XSS vulnerabilities, code injections possible.
 
 If the code accepts input, the input is sanitized and validated.
@@ -69,7 +68,7 @@ If the application is a website and deals with sensitive information, the app us
 2 - Application has minor vulnerabilities. The application can be deployed without it but the vulnerabilities need to be patched at the earliest.
 3 - Application has taken steps to respect the user's privacy and secure the data that the application works with.
 20.0	
-close Question 1.2.5 Has reasonable consideration been given to performance?
+ Question 1.2.5 Has reasonable consideration been given to performance?
 The code submitted should be performant within reason unless performance thresholds are provided in the specification.  Page load times, API response times, etc, are all within reasonable average expected duration.
 
 In case the application deals with a large amount of data, the application should prioritize its performance.
@@ -80,7 +79,7 @@ In case the application deals with a large amount of data, the application shoul
 3 - Very good performance
 10.0	
 Deployment Guide   (15.0)	Weight	Response
-close Question 1.3.1 Merely following the instructions in the Deployment Guide, you are able to successfully deploy the application?
+ Question 1.3.1 Merely following the instructions in the Deployment Guide, you are able to successfully deploy the application?
 Deployment Guide should use the markdown template located here: https://github.com/topcoderinc/topcoder-standards/blob/master/documentation-templates/README.md
 Each section has its own purpose and if the application has multiple components, each section has been organized into sub sections to deal with each component.
 
@@ -94,12 +93,12 @@ c) Steps on how to verify that the application has been deployed successfully
 2 - Deployment Guide is rather complete, but expects a certain level of knowledge of tools, and couldn't be deployed by a novice.
 3 - Deployment Guide is well written and only by using the guide, a novice in the techology is able to successfully deploy the application
 50.0	
-close Question 1.3.2 Has the submission maintained the Deployment Docs if they previously existed?
+ Question 1.3.2 Has the submission maintained the Deployment Docs if they previously existed?
 As the project evolves, features are added and removed. The Deployment Steps also undergo changes and thus the guide should be constantly updated where the information that is no longer applicable or relevant is removed.
 
 Have the docs been actively maintained?
 40.0	
-close Question 1.3.3 Is there some means of verification of submission provided?
+ Question 1.3.3 Is there some means of verification of submission provided?
 Verification Steps / Submission Demonstration. There are scenarios where the participant has managed to meet the challenge requirements but due to missing deployment instructions or not following the deployment steps correctly, the reviewer is unable to verify that the submission works.
 
 In such a case, what helps is a video (unlisted) or a set of snapshots indicating that the requirements have been met. This lets the reviewer know that they may be at fault and they can reach out to the co-pilot to deploy the app correctly,
@@ -111,7 +110,7 @@ In case the Verification / Demo is not clearly indicating how the submission mee
 Yes - Submission contains Verification Steps and Demonstration of how it meets the requirements that are easy to follow and match what the reviewer experienced too, or verification steps do not apply here or were specifically excluded in the spec.
 10.0	
 Testing   (15.0)	Weight	Response
-close Question 1.4.1 Does the code have proper code coverage?
+ Question 1.4.1 Does the code have proper code coverage?
 Test cases need to cover all scenarios possible in the application. Test cases are expected to be comprehensive.
 While the test case is not expected to hit all code in the app, all features that the app provides should be tested.
 
@@ -120,7 +119,7 @@ While the test case is not expected to hit all code in the app, all features tha
 2 - Test cases have been provided and provide significant coverage but missed in 1 major area, or a few minor areas.
 3 - Test cases are comprehensive and capture all features of the app or were specifically not required in the spec
 50.0	
-close Question 1.4.2 Do all test cases provided, pass, given any test data or setup for the current application?
+ Question 1.4.2 Do all test cases provided, pass, given any test data or setup for the current application?
 All test cases should pass. In case the participant has not captured all test scenarios (If section 5.1 does not have a perfect score), then consider that as a failed test case.
 This is to correctly capture the score in case participants try to game the system by submitting only successful test cases
 
