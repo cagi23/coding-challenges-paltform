@@ -19,9 +19,21 @@ Coding Contributions<br>
 +100 XP for solving a high-difficulty bug<br>
 Code Reviews<br>
 <br>
-+20 XP for reviewing a PR
-+50 XP if the review is approved by other senior developers
-Community & Learning
++20 XP for reviewing a PR<br>
++50 XP if the review is approved by other senior developers<br>
+<br>
+XP earned by coding challenge platform<br>
++50 contest api<br>
++150 batch<br>
++50 batch<br>
+
+
+
+
+
+
+
+
 
 +30 XP for answering a question on Stack Overflow
 +40 XP for publishing a technical blog post
