@@ -1,1 +1,1 @@
-coding challenge platform with "XP (experience) point configuarated for all competition
+coding challenge platform with "XP" (experience) point configuarated for all competition with unique competition that exprire after 
