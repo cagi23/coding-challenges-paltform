@@ -126,3 +126,22 @@ Here are two sample CSV files for the competition:
 
 transactions_input.csv (Sample transaction records)
 customers.csv (Sample customer details for enrichment)
+
+
+
+
+transaction_id,customer_id,amount,currency,transaction_date,status,payment_method,merchant_id
+"e123fabc-4d5e-678f-gh90-123456789abc","CUST001",150.75,"USD","2024-01-01 14:23:45","PENDING","CREDIT_CARD","MERCH100"
+"f234abcd-5e6f-789g-hi01-234567890bcd","CUST002",50.00,"EUR","2024-01-02 10:11:30","COMPLETED","BANK_TRANSFER","MERCH200"
+"g345bcde-6f7g-890h-ij12-345678901cde","CUST003",-25.00,"GBP","2024-01-03 18:45:15","FAILED","PAYPAL","MERCH300"
+"h456cdef-7g8h-901i-jk23-456789012def","CUST004",2000.00,"USD","2024-01-04 07:30:00","PENDING","CREDIT_CARD","MERCH400"
+
+
+
+
+customer_id,customer_name,email,phone,country
+"CUST001","John Doe","john.doe@email.com","+123456789","USA"
+"CUST002","Alice Smith","alice.smith@email.com","+987654321","Germany"
+"CUST003","Bob Johnson","bob.johnson@email.com","+1122334455","UK"
+"CUST004","Emma Brown","emma.brown@email.com","+5566778899","Canada"
+
