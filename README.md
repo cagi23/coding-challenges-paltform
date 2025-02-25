@@ -1,1 +1,1 @@
-# coding-challenges-newsletter
+# coding-challenges-hub
