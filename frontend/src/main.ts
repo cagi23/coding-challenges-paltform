@@ -1,3 +1,5 @@
+/// <reference types="@angular/localize" />
+
 import './polyfills';
 
 import { enableProdMode } from '@angular/core';

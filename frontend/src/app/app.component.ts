@@ -14,7 +14,7 @@ export class AppComponent {
     {
       key: 'email',
       type: 'input',
-      templateOptions: {
+      props: {
         label: 'Email address',
         placeholder: 'Enter email',
         required: true,
